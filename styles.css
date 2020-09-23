@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    /* align-self: center; */
+}
+
+.container {
+    
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center; */
+    justify-content: center;
+    background-color: silver;
+}
+
+.feed {
+    width: 500px;
+    /* padding: 5px; */
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    }
+
+.title {
+    width: 500px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-bottom: 5px;
+
+
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+.paragraph { 
+    padding-left: 20px;
+    align-content: center;
+    border-top: 1px solid gray;
+    margin-top: 5px;
+}
+
+h4 {
+    color: grey;
+}
+
